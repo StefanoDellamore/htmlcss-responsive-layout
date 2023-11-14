@@ -76,6 +76,7 @@ main > section {
     border: 1px solid black;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 /* Media querry */
@@ -83,12 +84,13 @@ main > section {
 /* Tablet */
 
 @media screen and (min-width: 769px) {
-    .small {
-        width: calc((100% / 3) -20px);
+    
+    .col-small {
+        width: calc((100% / 3) - 20px);
     }
 
-    .big {
-        width: calc(((100% / 3) * 2) -20px);
+    .col-big {
+        width: calc(((100% / 3) * 2) - 20px)
     }
 }
 
