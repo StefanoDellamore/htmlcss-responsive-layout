@@ -36,7 +36,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-}
+}   
 
 #container-nav nav {
     display: none;
@@ -59,13 +59,23 @@ nav ul li a button {
 
 /* Main */
 
+main > section {
+    padding: 40px 0;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .col {
-    width: 100%;
+    width: calc(100% - 20px);
+    background-color: #0084FD;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* Media querry */
@@ -73,7 +83,13 @@ nav ul li a button {
 /* Tablet */
 
 @media screen and (min-width: 769px) {
-    
+    .small {
+        width: calc((100% / 3) -20px);
+    }
+
+    .big {
+        width: calc(((100% / 3) * 2) -20px);
+    }
 }
 
 /* Desktop */
