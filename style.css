@@ -26,19 +26,15 @@ header {
     background-color: #0084FD;
 }
 
-.container-logo {
-    width: 100%;
-}
-
 .container-icon {
     color: white;
     font-size: 20px;
-    margin-top: 6px;
 }
 
 #container-nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 0;
 }
 
@@ -46,14 +42,30 @@ header {
     display: none;
 }
 
-nav > ul li {
+#container-nav nav ul li {
     display: inline-block;
 }
 
-nav > ul li a {
+#container-nav nav ul li a {
     display: inline-block;
     text-decoration: none;
     color: white;
+    padding: 0 5px;
+}
+
+nav ul li a button {
+    display: inline-block;
+}
+
+/* Main */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    width: 100%;
 }
 
 /* Media querry */
