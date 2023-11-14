@@ -57,7 +57,7 @@ nav ul li a button {
     display: inline-block;
 }
 
-/* Main */
+/* Main-general */
 
 main > section {
     padding: 40px 0;
@@ -73,11 +73,31 @@ main > section {
 .col {
     width: calc(100% - 20px);
     background-color: #0084FD;
-    border: 1px solid black;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
 }
+
+/* Section 3  */
+
+.text-section-3 {
+    text-align: center;
+}
+
+
+.text-section-3  h4 {
+    padding-bottom: 20px;
+}
+
+.text-section-3  h5 {
+    padding-bottom: 20px;
+}
+
+.text-section-3  p {
+    padding-bottom: 20px;
+}
+
+
 
 /* Media querry */
 
@@ -85,6 +105,8 @@ main > section {
 
 @media screen and (min-width: 769px) {
     
+    /* Section 1 */
+
     .col-small {
         width: calc((100% / 3) - 20px);
     }
@@ -98,6 +120,8 @@ main > section {
 
 @media screen and (min-width: 992px) {
 
+    /* Section 1 */
+
     #container-nav nav {
         display: block;
     }
@@ -106,10 +130,12 @@ main > section {
         display: none;
     }
 
+    /* Section 2 */
+
     .row-unwrap {
         flex-wrap: nowrap;
     }
-    
+
     .col-up {
         width: calc(100% / 2);
     }
@@ -117,4 +143,6 @@ main > section {
     .col-down {
         width: calc(100% / 2);
     }
+
 }
+
