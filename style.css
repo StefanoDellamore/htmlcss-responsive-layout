@@ -105,4 +105,16 @@ main > section {
     #container-nav .container-icon {
         display: none;
     }
+
+    .row-unwrap {
+        flex-wrap: nowrap;
+    }
+    
+    .col-up {
+        width: calc(100% / 2);
+    }
+
+    .col-down {
+        width: calc(100% / 2);
+    }
 }
