@@ -107,6 +107,13 @@ main > section {
     padding-bottom: 20px;
 }
 
+/* Section 5 */
+
+.col-left h2 {
+    padding-bottom: 20px;
+}
+
+
 /* Media querry */
 
 /* Tablet */
@@ -130,6 +137,16 @@ main > section {
     }
 
     .col-square-2 {
+        width: calc((100% / 2) - 20px);
+    }
+
+    /* Section 5 */
+
+    .col-left {
+        width: calc((100% / 2) - 20px);
+    }
+
+    .col-right {
         width: calc((100% / 2) - 20px);
     }
 
