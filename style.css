@@ -135,7 +135,15 @@ main > section {
     margin-bottom: 20px;
 }
 
+/* Footer */
 
+.col-footer {
+    text-align: center;
+}
+
+.col-footer p{
+    margin-bottom: 20px;
+}
 
 /* Media querry */
 
