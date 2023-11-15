@@ -258,11 +258,13 @@ img {
 .col-square-1 {
     padding-bottom: 20px;
     border-radius: 20px;
+    background-color: white;
 }
 
 .col-square-2 {
     padding-bottom: 20px;
     border-radius: 20px;
+    background-color: white;
 }
 
 .text-section-4 {
@@ -272,22 +274,27 @@ img {
 
 .text-section-4 h3{
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 
 .col-square-1 h2 {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .col-square-2 h2 {
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 
 .col-square-1 p {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .col-square-2 p {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .col-square-1 a {
@@ -296,9 +303,8 @@ img {
     background-color: violet;
     padding: 5px 20px;
     border-radius: 50px;
+    margin-left: 20px;
 }
-
-
 
 .col-square-2 a {
     text-decoration: none;
@@ -306,6 +312,7 @@ img {
     background-color: violet;
     padding: 5px 20px;
     border-radius: 50px;
+    margin-left: 20px;
 }
 
 .font-size {
