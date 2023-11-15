@@ -75,12 +75,44 @@ footer > section {
 
 .col {
     width: calc(100% - 20px);
-    background-color: #0084FD;
+    background-color: #B5DDFF;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
 }
 
+#botton-section-1 { 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    padding: 5px ;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #0084FD;
+    color: white; 
+}
+
+/* Section 1  */
+img {
+   
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text-section-1 {
+    padding: 0 20px;
+}
+
+.text-section-1 h2 {
+    margin: 20px 0;
+    color: #0084FD;
+}
+
+.text-section-1 p {
+    margin: 20px 0;
+}
 /* Section 3  */
 
 .text-section-3 {
@@ -167,6 +199,14 @@ footer > section {
         width: calc(((100% / 3) * 2) - 20px)
     }
 
+    .container-tablet-section-1 {
+        width: 100%;
+    }
+
+    .img-section-1 {
+        width: 50%;
+    }
+
     /* Section 4 */
 
     .col-square-1 {
@@ -202,6 +242,16 @@ footer > section {
     #container-nav .container-icon {
         display: none;
     }
+
+    .container-desktop-section-1 {
+        display: flex;
+    }
+
+    .text-section-1 {
+        width: 50%;
+    }
+
+
 
     /* Section 2 */
 
