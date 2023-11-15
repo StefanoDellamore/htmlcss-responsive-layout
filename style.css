@@ -197,6 +197,10 @@ img {
     padding-bottom: 20px;
 }
 
+.text-section-3-flex img,p {
+    margin: 20px;
+}
+
 .container-section-3 {
     display: flex;
     justify-content: center;
@@ -301,12 +305,10 @@ img {
 
     .text-section-3-flex-left {
         width: 20%;
-        padding-bottom: 20px;
     }
 
     .text-section-3-flex-right {
         width: 80%;
-        padding-bottom: 20px;
     }
 
     .text-section-3-flex {
