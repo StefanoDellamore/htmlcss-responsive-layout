@@ -105,6 +105,11 @@ img {
     padding: 0 20px;
 }
 
+.text-section1_2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .text-section-1 h2 {
     margin: 20px 0;
     color: #0084FD;
@@ -112,6 +117,29 @@ img {
 
 .text-section-1 p {
     margin: 20px 0;
+}
+
+.text-section1_2 {
+    text-align: center;
+}
+
+.text-section1_2 i {
+    font-size: 100px;
+    color: #0084FD;
+}
+
+.text-section1_2 h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-section1_2 :last-child {
+    margin-bottom: 20px;
+}
+
+.blu {
+    font-size: 30px;
+    color: #0084FD;
 }
 /* Section 3  */
 
