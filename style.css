@@ -69,13 +69,13 @@ footer > section {
 .row {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-left: -10px;
     margin-right: -10px;
 }
 
 .col {
     width: calc(100% - 20px);
-    background-color: #B5DDFF;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
@@ -145,6 +145,9 @@ img {
     color: #0084FD;
 }
 
+.blu-sky {
+    background-color: #B5DDFF;
+}
 /* Section 2  */
 
 .col-up {
@@ -179,6 +182,10 @@ img {
     background-color: violet;
 }
 
+.violet {
+    background-color: #9792E4;
+}
+
 /* Section 3  */
 
 .text-section-3-flex-left {
@@ -197,7 +204,7 @@ img {
     padding-bottom: 20px;
 }
 
-.text-section-3-flex img,p {
+.text-section-3-flex img {
     margin: 20px;
 }
 
@@ -226,6 +233,11 @@ img {
     object-fit: cover;
 }
 
+.lilac {
+    background-color: #9792E4;
+    padding-bottom: 20px;
+}
+
 /* Section 4 */
 
 .col-square-1 {
@@ -251,7 +263,6 @@ img {
 }
 
 .col-square-1 a {
-    margin: 0 20px;
     text-decoration: none;
     color: white;
     background-color: violet;
@@ -264,7 +275,6 @@ img {
 }
 
 .col-square-2 a {
-    margin: 0 20px;
     text-decoration: none;
     color: white;
     background-color: violet;
@@ -288,7 +298,8 @@ img {
 }
 
 .col-left h2{
-    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .img-section-5 a {
@@ -305,7 +316,6 @@ img {
     border-radius: 50%;
     object-fit: cover;
 }
-
 
 /* Section 6 */
 
@@ -327,6 +337,39 @@ img {
 
 .col-text-last button {
     margin-bottom: 20px;
+}
+
+.col-text-last-title {
+    font-style: italic;
+}
+
+.col-text-last h3 {
+    color: white
+}
+
+.col-text-last p {
+    color: white;
+}
+
+.col-text-last a {
+    text-decoration: none;
+    color: violet;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.col-text-last p:last-child {
+    font-size: 7px;
+}
+
+.fa-circle {
+    font-size: 3px;
+}
+
+#font-yellow {
+    color: rgb(255, 187, 0);
+    font-size: 40px;
 }
 
 /* Footer */
@@ -402,6 +445,7 @@ img {
         width: 20%;
     }
 
+    
 }
 
 
@@ -458,6 +502,16 @@ img {
 
     .col-square-2 {
         width: calc((100% / 3) - 20px);
+    }
+
+    /* Section 6 */
+
+    .row-centre {
+        justify-content: center;
+    }
+
+    .col-text-last {
+        width: 50%;
     }
 }
 
