@@ -278,9 +278,34 @@ img {
 
 /* Section 5 */
 
-.col-left h2 {
+.img-section-5 {
+    margin: 0 20px;
     padding-bottom: 20px;
 }
+
+.img-section-5 h2{
+    margin: 20px 0;
+}
+
+.col-left h2{
+    padding: 20px 0;
+}
+
+.img-section-5 a {
+    text-decoration: none;
+    color: white;
+    background-color: violet;
+    padding: 5px 20px;
+    border-radius: 50px;
+}
+
+.container-img-section-5 img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 
 /* Section 6 */
 
@@ -367,16 +392,14 @@ img {
         width: calc((100% / 2) - 20px);
     }
 
-    
-
     /* Section 5 */
 
     .col-left {
-        width: calc((100% / 2) - 20px);
+        width: 70%;
     }
 
     .col-right {
-        width: calc((100% / 2) - 20px);
+        width: 20%;
     }
 
 }
